@@ -1,4 +1,4 @@
-# Local Development image for Microsoft SQL Server on Linux
+# An OpenShift compatible image for Microsoft SQL Server on Linux
 
 ## Environment variables:
 * ACCEPT_EULA=Y
