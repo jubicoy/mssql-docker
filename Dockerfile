@@ -3,7 +3,6 @@ FROM microsoft/mssql-server-linux
 RUN apt-get update && \
     apt-get install -y gettext libnss-wrapper && \
     mkdir -p /var/opt/mssql /volume && \
-    ln -s /var/opt/mssql /volume/mssql && \
     chmod -R 777 /var/opt/mssql
 
 COPY root /
